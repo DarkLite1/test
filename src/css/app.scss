@@ -1,0 +1,11 @@
+// app global css in SCSS form
+@font-face {
+  font-family: 'lexend-regular';
+  font-weight: 300;
+  src: url('./fonts/LexendHM-Regular.woff2') format('woff2'),
+    url('./fonts/LexendHM-Regular.woff') format('woff');
+}
+
+.lexend {
+  font-family: 'lexend-regular';
+}

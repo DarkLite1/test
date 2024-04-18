@@ -1,0 +1,17 @@
+{
+  "page": {
+    "home": {
+      "title": {
+        "safetyCourses": "Page de securite"
+      },
+      "button": {
+        "workday": "workday"
+      }
+    },
+    "settings": {
+      "language": "Langue",
+      "reportProblem": "Signaler un problème",
+      "emailUs": "Envoyez-nous un courriel"
+    }
+  }
+}
