@@ -5,7 +5,7 @@
       <p class="col-12">{{ $t('page.help.paragraph.intro') }}</p>
     </div>
 
-    <div class="row justify-center q-gutter-md">
+    <div class="row justify-center q-gutter-">
       <q-card class="bg-secondary col-7">
         <q-card-section>
           <div class="text-h6">{{ $t('page.help.Contact1.title') }}</div>
