@@ -5,47 +5,30 @@
       <p class="col-12">{{ $t('page.help.paragraph.intro') }}</p>
     </div>
 
-    <div class="row justify-center q-gutter-">
-      <q-card class="bg-secondary col-7">
+    <div class="container">
+      <q-card
+        v-for="contact in $tm('page.help.contacts')"
+        :key="contact"
+        class="bg-secondary col-7"
+      >
         <q-card-section>
-          <div class="text-h6">{{ $t('page.help.Contact1.title') }}</div>
+          <div class="text-h6">{{ $rt(contact.title) }}</div>
+
+          <!-- <div class="text-h6">{{ $rt(contact.title) }}</div> -->
           <div class="text-subtitle2">
-            <p>{{ $t('page.help.Contact1.intro') }}</p>
+            <!-- <p>{{ $rt(contact.intro) }}</p> -->
             <ul>
               <li>
-                <b>{{ $t('page.help.Contact1.person.name') }} </b><br />
-                {{ $t('page.help.Contact1.person.jobTitle') }}<br />
+                <b>{{ $rt('contact.person.name') }} </b><br />
+                {{ $rt('contact.person.jobTitle') }}<br />
                 <q-icon name="local_phone" />
-                {{ $t('page.help.Contact1.person.phone') }}<br />
+                {{ $rt('contact.person.phone') }}<br />
                 <q-icon name="mail" />
-                {{ $t('page.help.Contact1.person.email') }}
+                {{ $rt('contact.person.email') }}
               </li>
             </ul>
           </div>
         </q-card-section>
-
-        <q-card-section class="q-pt-none q-gutter-sm"> </q-card-section>
-      </q-card>
-
-      <q-card class="bg-secondary col-7">
-        <q-card-section>
-          <div class="text-h6">{{ $t('page.help.Contact2.title') }}</div>
-          <div class="text-subtitle2">
-            <p>{{ $t('page.help.Contact2.intro') }}</p>
-            <ul>
-              <li>
-                <b>{{ $t('page.help.Contact2.person.name') }} </b><br />
-                {{ $t('page.help.Contact2.person.jobTitle') }}<br />
-                <q-icon name="local_phone" />
-                {{ $t('page.help.Contact2.person.phone') }}<br />
-                <q-icon name="mail" />
-                {{ $t('page.help.Contact2.person.email') }}
-              </li>
-            </ul>
-          </div>
-        </q-card-section>
-
-        <q-card-section class="q-pt-none q-gutter-sm"> </q-card-section>
       </q-card>
     </div>
   </q-page>

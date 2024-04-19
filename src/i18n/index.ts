@@ -1,9 +1,10 @@
-import enUS from './en-US';
-import nlBE from './nl-BE';
-import frBE from './fr-BE';
+// import enUS from './en-US';
+import enUS from './translationEnglish.json'
+import nlBE from './translationDutch.json'
+import frBE from './translationFrench.json'
 
 export default {
   'en-US': enUS,
   'nl-BE': nlBE,
-  'fr-BE': frBE
-};
+  'fr-BE': frBE,
+}
