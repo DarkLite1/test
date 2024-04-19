@@ -5,7 +5,7 @@
       <p class="col-12">{{ $t('page.help.paragraph.intro') }}</p>
     </div>
 
-    <div class="container">
+    <div class="row justify-center q-gutter-md">
       <q-card
         v-for="contact in $tm('page.help.contacts')"
         :key="contact"

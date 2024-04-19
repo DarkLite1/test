@@ -1,0 +1,71 @@
+{
+  "page": {
+    "home": {
+      "title": {
+        "safetyCourses": "Veiligheidscursussen"
+      },
+      "paragraph": {
+        "intro": "Your safety and our safety is our highest priority. Operating heavy machinery, transporting goods from one location to the next, ... . Follow the appropriate course below to get certified."
+      },
+      "button": {
+        "workday": "wWrkday"
+      }
+    },
+    "help": {
+      "title": {
+        "hereToHelp": "We're here to help"
+      },
+      "paragraph": {
+        "intro": "We aim to improve wherever possible. Feel free to reach out to us if you have questions or remarks."
+      },
+      "contacts": [
+        {
+          "title": "Health & safety",
+          "intro": "You've noticed a dangerous situation on site? Want to know more about the e-learning tool? Suggest an improvement?",
+          "person": {
+            "name": "Bob",
+            "phone": "xxx",
+            "email": "Bob{'@'}contoso.com",
+            "jobTitle": "Manager"
+          }
+        },
+        {
+          "title": "IT Support",
+          "intro": "Something on the website did't work? Computer problems?",
+          "person": {
+            "name": "Service desk",
+            "phone": "xxx",
+            "email": "agents{'@'}contoso.com",
+            "jobTitle": "Friendly service desk agents"
+          }
+        }
+      ],
+      "Contact1": {
+        "title": "Health & safety",
+        "intro": "You've noticed a dangerous situation on site? Want to know more about the e-learning tool? Suggest an improvement?",
+        "person": {
+          "name": "Bob",
+          "phone": "xxx",
+          "email": "Bob{'@'}contoso.com",
+          "jobTitle": "Manager"
+        }
+      },
+      "Contact2": {
+        "title": "IT Support",
+        "intro": "Something on the website did't work? Computer problems?",
+        "person": {
+          "name": "Service desk",
+          "phone": "xxx",
+          "email": "agents{'@'}contoso.com",
+          "jobTitle": "Friendly service desk agents"
+        }
+      },
+      "button": {
+        "workday": "workday"
+      }
+    },
+    "settings": {
+      "language": "Language"
+    }
+  }
+}
